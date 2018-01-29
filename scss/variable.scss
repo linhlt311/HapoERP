@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i');
+$paragraph-color: #283238;
+$title-color: #444444;
+body {
+  background-image: url("../images/background-picture.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+p {
+  line-height: 24px;
+  font-size: 13.2px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  color: $paragraph-color;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+button {
+  border: none;
+}
+
+h2 {
+  margin: 0;
+  color: $title-color;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 65px;
+}
+
+select {
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
