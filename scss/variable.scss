@@ -13,13 +13,12 @@ p {
   text-align: justify;
   font-family: "Roboto", sans-serif;
   color: $paragraph-color;
-  &:last-child {
-    margin: 0;
-  }
 }
 
 button {
   border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 h2 {
@@ -42,4 +41,8 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+.row {
+  width: 100%;
 }

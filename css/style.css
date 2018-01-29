@@ -10,11 +10,11 @@ p {
   text-align: justify;
   font-family: "Roboto", sans-serif;
   color: #283238; }
-  p:last-child {
-    margin: 0; }
 
 button {
-  border: none; }
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
 
 h2 {
   margin: 0;
@@ -32,7 +32,233 @@ select {
 a:hover {
   text-decoration: none; }
 
+.row {
+  width: 100%; }
+
 .index-page {
-  height: 832px; }
+  height: 875px;
+  padding-top: 41px; }
+  .index-page .index-header {
+    height: 36px;
+    width: 100%; }
+    .index-page .index-header .about-us {
+      float: left;
+      margin-top: 12px;
+      margin-left: 12%; }
+    .index-page .index-header .sign-in {
+      float: left;
+      border: 2px solid #8BC34A;
+      border-radius: 100px;
+      color: #8BC34A;
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 16px;
+      padding: 9px 15px;
+      background: none;
+      margin-left: 36px;
+      cursor: pointer; }
+
+.hapo-erp-box {
+  width: 100%;
+  margin-top: 180px; }
+  .hapo-erp-box img {
+    display: block;
+    margin: auto; }
+
+.index-icon-row, .index-model-row {
+  width: 100%;
+  margin-top: 53px;
+  height: 52px; }
+
+.icon-main-layout {
+  height: 100%;
+  width: 50%;
+  margin: auto; }
+
+.single-icon-layout, .single-model-layout {
+  float: left;
+  height: 100%;
+  width: 33%;
+  text-align: center;
+  color: #283238;
+  font-size: 48px;
+  letter-spacing: 4px;
+  line-height: 48px;
+  font-family: themify span;
+    font-family-margin: auto; }
+
+.single-model-layout {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: normal; }
+
+.index-slogan {
+  color: #283238;
+  font-size: 17.5px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 53px; }
+
+.index-model-row {
+  height: 48px;
+  margin-top: 12px; }
+
+.index-button-layout {
+  margin-top: 22px;
+  text-align: center; }
+
+.start-now-button {
+  border-radius: 100px;
+  background: -webkit-linear-gradient(138.88deg, #B4EC51 0%, #429321 100%);
+  background: -o-linear-gradient(138.88deg, #B4EC51 0%, #429321 100%);
+  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 21px;
+  padding: 15px 47px; }
+  .start-now-button:hover {
+    background: -webkit-linear-gradient(138.88deg, #429321 0%, #B4EC51 100%);
+    background: -o-linear-gradient(138.88deg, #429321 0%, #B4EC51 100%);
+    background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%); }
+
+.title-icon {
+  float: left;
+  color: #444444;
+  font-family: themify;
+  font-size: 36px;
+  line-height: 36px; }
+
+.description {
+  color: #283238;
+  font-family: "Roboto", sans-serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px; }
+
+.main-box {
+  width: 100%; }
+  .main-box .title-icon {
+    margin-top: 14px; }
+  .main-box .title-name {
+    margin-left: 15px;
+    float: left; }
+  .main-box .clear {
+    clear: both; }
+  .main-box .description {
+    margin-top: 15px; }
+  .main-box .task-box .long-paragraph {
+    margin-top: 25px; }
+  .main-box .pos-button {
+    margin-top: -55px; }
+
+.today-main-box {
+  height: 571px;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
+  .today-main-box .title {
+    margin-top: 100px;
+    height: 58px; }
+  .today-main-box .task-box {
+    margin-top: -280px; }
+  .today-main-box img {
+    margin-top: -80px;
+    width: 100%; }
+
+.daily-main-box {
+  height: 571px; }
+  .daily-main-box .title {
+    margin-top: 100px;
+    height: 58px; }
+  .daily-main-box img {
+    margin-top: -270px;
+    width: 100%; }
+
+@media screen and (max-width: 1024px) {
+  /*Something code*/ }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("../images/TB-background.jpg"); }
+  .index-page {
+    height: 425.2px; }
+    .index-page .index-header {
+      margin-top: -15px; }
+      .index-page .index-header .about-us {
+        margin-left: 14%; }
+      .index-page .index-header .sign-in {
+        margin-left: 23px; }
+  .hapo-erp-box {
+    margin-top: 30px; }
+    .hapo-erp-box img {
+      width: 144px; }
+  .index-icon-row, .index-model-row {
+    margin-top: 40px;
+    height: 25px; }
+  .single-icon-layout, .single-model-layout {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 25px; }
+  .index-model-row {
+    margin-top: 7px; }
+  .single-model-layout {
+    font-weight: 300;
+    letter-spacing: normal; }
+  .index-slogan {
+    font-size: 13.5px;
+    margin-top: 15px; }
+  .start-now-button {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    padding: 13px 27px; }
+  .main-box .title {
+    text-align: center;
+    width: 265px;
+    margin: auto;
+    margin-top: 51px; }
+    .main-box .title .title-icon {
+      font-size: 30px;
+      line-height: 30px;
+      margin-top: 11px; }
+    .main-box .title .title-name {
+      font-size: 36px;
+      line-height: 48px;
+      margin-left: 13px; }
+  .main-box .description {
+    text-align: center; }
+  .main-box img {
+    margin-top: 25px; }
+  .main-box .task-box {
+    margin-top: -253px; }
+    .main-box .task-box p {
+      font-size: 12.5px;
+      line-height: 21px; }
+  .main-box .pos-button {
+    margin-top: 30px;
+    text-align: center; }
+  .today-main-box {
+    height: 526px; }
+  .daily-main-box {
+    height: 520px; }
+    .daily-main-box .task-box {
+      margin-top: 0px; }
+    .daily-main-box img {
+      margin-top: -285px; }
+    .daily-main-box .pos-button {
+      margin-top: -10px; } }
+
+@media screen and (max-width: 480px) {
+  /*Something code*/ }
+
+@media screen and (max-width: 375px) {
+  /*Something code*/ }
 
 /*# sourceMappingURL=style.css.map */
