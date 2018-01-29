@@ -56,8 +56,7 @@
   font-size: 48px;
   letter-spacing: 4px;
   line-height: 48px;
-  font-family: themify
-  span {
+  font-family: themify span {
     margin: auto;
   }
 }
@@ -123,6 +122,18 @@
   line-height: 19px;
 }
 
+.list-bullet-icon {
+  color: #8BC34A;
+  font-family: themify;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.clear {
+  clear: both;
+}
+
 .main-box {
   width: 100%;
   .title-icon {
@@ -132,15 +143,29 @@
     margin-left: 15px;
     float: left;
   }
-  .clear {
-    clear: both;
-  }
   .description {
     margin-top: 15px;
   }
   .task-box {
     .long-paragraph {
       margin-top: 25px;
+    }
+    .short-para-line-box {
+      position: relative;
+      height: 50px;
+      width: 100%;
+      margin-top: 17px;
+      .list-bullet-icon {
+        float: left;
+      }
+      p {
+        float: left;
+        font-size: 12.3px;
+        width: 90.5%;
+        line-height: 21px;
+        margin-top: 1px;
+        margin-left: 10px;
+      }
     }
   }
   .pos-button {
@@ -150,7 +175,7 @@
 
 .today-main-box {
   height: 571px;
-  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   .title {
     margin-top: 100px;
     height: 58px;
@@ -161,7 +186,7 @@
   img {
     margin-top: -80px;
     width: 100%;
-  }   
+  }
 }
 
 .daily-main-box {
@@ -173,6 +198,102 @@
   img {
     margin-top: -270px;
     width: 100%;
+  }
+}
+
+.oval {
+  box-sizing: border-box;
+  height: 109.5px;
+  width: 109.5px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.mini-icon-rectangle {
+  width: 50%;
+  font-size: 37px;
+  color: #FFFFFF;
+}
+
+.oval-mini {
+  position: relative;
+  box-sizing: border-box;
+  height: 45.5px;
+  width: 45.5px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  background-color: #7CB342;
+}
+
+.task-list-name {
+  position: relative;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.mini-number-rectangle {
+  width: 70%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.task-list-banner {
+  height: 322px;
+  padding-top: 69px;
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+  .oval-main-box {
+    height: 109.5px;
+    padding-left: 16.5%;
+    padding-right: 16.5%;
+    .oval-small-box {
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 20%;
+      margin: auto;
+      .oval {
+        margin: auto;
+        .mini-icon-rectangle {
+          margin-top: 28%;
+          margin-left: 25%;
+          text-align: center;
+        }
+      }
+      .oval-mini {
+        margin: auto;
+        margin-top: -24px;
+        .mini-number-rectangle {
+          margin-top: 16%;
+          margin-left: 15%;
+        }
+      }
+      .task-list-name {
+        margin-top: 11px;
+      }
+    }
+  }
+}
+
+.members-main-box {
+  height: 588px;
+  .title {
+    margin-top: 100px;
+    height: 58px;
+  }
+  img {
+    margin-top: -300px;
+    width: 90%;
+  }
+  .pos-button {
+    margin-top: -58px;
   }
 }
 

@@ -52,6 +52,7 @@
   }
   .main-box {
     .title {
+      height: 48px;
       text-align: center;
       width: 265px;
       margin: auto;
@@ -98,6 +99,32 @@
     }
     .pos-button {
       margin-top: -10px;
+    }
+  }
+  .task-list-banner {
+    padding-top: 49px;
+    height: 288px;
+    .oval-main-box {
+      padding-left: 0;
+      padding-right: 0;
+      .oval-small-box {
+        .task-list-name {
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+  .members-main-box {
+    height: 557px;
+    .task-box {
+      margin-top: 57px;
+    }
+    img {
+      margin-top: -245px;
+      width: 110%;
+    }
+    .pos-button {
+      margin-top: 30px;
     }
   }
 }

@@ -143,6 +143,16 @@ a:hover {
   font-style: italic;
   line-height: 19px; }
 
+.list-bullet-icon {
+  color: #8BC34A;
+  font-family: themify;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify; }
+
+.clear {
+  clear: both; }
+
 .main-box {
   width: 100%; }
   .main-box .title-icon {
@@ -150,12 +160,24 @@ a:hover {
   .main-box .title-name {
     margin-left: 15px;
     float: left; }
-  .main-box .clear {
-    clear: both; }
   .main-box .description {
     margin-top: 15px; }
   .main-box .task-box .long-paragraph {
     margin-top: 25px; }
+  .main-box .task-box .short-para-line-box {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 17px; }
+    .main-box .task-box .short-para-line-box .list-bullet-icon {
+      float: left; }
+    .main-box .task-box .short-para-line-box p {
+      float: left;
+      font-size: 12.3px;
+      width: 90.5%;
+      line-height: 21px;
+      margin-top: 1px;
+      margin-left: 10px; }
   .main-box .pos-button {
     margin-top: -55px; }
 
@@ -180,6 +202,89 @@ a:hover {
   .daily-main-box img {
     margin-top: -270px;
     width: 100%; }
+
+.oval {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 109.5px;
+  width: 109.5px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%; }
+
+.mini-icon-rectangle {
+  width: 50%;
+  font-size: 37px;
+  color: #FFFFFF; }
+
+.oval-mini {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 45.5px;
+  width: 45.5px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  background-color: #7CB342; }
+
+.task-list-name {
+  position: relative;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center; }
+
+.mini-number-rectangle {
+  width: 70%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #FFFFFF; }
+
+.task-list-banner {
+  height: 322px;
+  padding-top: 69px;
+  background: -webkit-linear-gradient(135deg, #B4EC51 0%, #429321 100%);
+  background: -o-linear-gradient(135deg, #B4EC51 0%, #429321 100%);
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%); }
+  .task-list-banner .oval-main-box {
+    height: 109.5px;
+    padding-left: 16.5%;
+    padding-right: 16.5%; }
+    .task-list-banner .oval-main-box .oval-small-box {
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 20%;
+      margin: auto; }
+      .task-list-banner .oval-main-box .oval-small-box .oval {
+        margin: auto; }
+        .task-list-banner .oval-main-box .oval-small-box .oval .mini-icon-rectangle {
+          margin-top: 28%;
+          margin-left: 25%;
+          text-align: center; }
+      .task-list-banner .oval-main-box .oval-small-box .oval-mini {
+        margin: auto;
+        margin-top: -24px; }
+        .task-list-banner .oval-main-box .oval-small-box .oval-mini .mini-number-rectangle {
+          margin-top: 16%;
+          margin-left: 15%; }
+      .task-list-banner .oval-main-box .oval-small-box .task-list-name {
+        margin-top: 11px; }
+
+.members-main-box {
+  height: 588px; }
+  .members-main-box .title {
+    margin-top: 100px;
+    height: 58px; }
+  .members-main-box img {
+    margin-top: -300px;
+    width: 90%; }
+  .members-main-box .pos-button {
+    margin-top: -58px; }
 
 @media screen and (max-width: 1024px) {
   /*Something code*/ }
@@ -220,6 +325,7 @@ a:hover {
     line-height: 19px;
     padding: 13px 27px; }
   .main-box .title {
+    height: 48px;
     text-align: center;
     width: 265px;
     margin: auto;
@@ -253,7 +359,24 @@ a:hover {
     .daily-main-box img {
       margin-top: -285px; }
     .daily-main-box .pos-button {
-      margin-top: -10px; } }
+      margin-top: -10px; }
+  .task-list-banner {
+    padding-top: 49px;
+    height: 288px; }
+    .task-list-banner .oval-main-box {
+      padding-left: 0;
+      padding-right: 0; }
+      .task-list-banner .oval-main-box .oval-small-box .task-list-name {
+        margin-top: 16px; }
+  .members-main-box {
+    height: 557px; }
+    .members-main-box .task-box {
+      margin-top: 57px; }
+    .members-main-box img {
+      margin-top: -245px;
+      width: 110%; }
+    .members-main-box .pos-button {
+      margin-top: 30px; } }
 
 @media screen and (max-width: 480px) {
   /*Something code*/ }
