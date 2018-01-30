@@ -92,8 +92,7 @@ a {
   font-size: 48px;
   letter-spacing: 4px;
   line-height: 48px;
-  font-family: themify span;
-    font-family-margin: auto; }
+  font-family: themify; }
 
 .single-model-layout {
   font-family: "Roboto", sans-serif;
