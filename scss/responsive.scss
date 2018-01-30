@@ -28,6 +28,9 @@
     margin-top: 40px;
     height: 25px;
   }
+  .icon-main-layout {
+    width: 60%;
+  }
   .single-icon-layout {
     font-size: 24px;
     letter-spacing: 2px;
@@ -149,6 +152,8 @@
         margin-left: -60px;
       }
       .close-quote-icon {
+        font-size: 64px;
+        line-height: 64px;
         margin-left: 92%;
       }
     }
@@ -168,7 +173,197 @@
 }
 
 @media screen and (max-width: 480px) {
-  /*Something code*/
+  .index-page {
+    height: 266px;
+    .index-header {
+      margin-top: -15px;
+      .about-us {
+        margin-left: 0;
+      }
+      .sign-in {
+        margin-left: 23px;
+      }
+    }
+    .hapo-erp-box {
+      margin-top: 8px;
+      img {
+        width: 96px;
+      }
+    }
+    .index-icon-row {
+      margin-top: 20px;
+      height: 18px;
+      .icon-main-layout {
+        width: 80%;
+        .single-icon-layout {
+          font-size: 18px;
+          letter-spacing: 1px;
+          line-height: 18px;
+        }
+      }
+    }
+    .index-model-row {
+      margin-top: 7px;
+      .single-model-layout {
+        font-weight: 300;
+        letter-spacing: normal;
+      }
+    }
+    .index-slogan {
+      font-size: 9px;
+      margin-top: 10px;
+    }
+    .start-now-button {
+      margin-top: -20px;
+    }
+  }
+  .start-now-button {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    padding: 11px 27px;
+  }
+  .main-box {
+    .title {
+      height: 32px;
+      text-align: center;
+      width: 190px;
+      margin: auto;
+      margin-top: 30px;
+      .title-icon {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 7px;
+      }
+      .title-name {
+        font-size: 24px;
+        line-height: 32px;
+        margin-left: 13px;
+      }
+    }
+    .description {
+      text-align: center;
+      font-size: 13px;
+    }
+    img {
+      margin-top: 15px;
+    }
+    .task-box {
+      margin-top: 0px;
+      p {
+        font-size: 12.5px;
+        line-height: 21px;
+      }
+    }
+    .pos-button {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  .today-main-box {
+    height: 687px;
+  }
+  .daily-main-box {
+    height: 671px;
+    .task-box {
+      margin-top: -5px;
+    }
+    img {
+      margin-top: 5px;
+    }
+    .pos-button {
+      margin-top: 20px;
+    }
+  }
+  .task-list-banner {
+    padding-top: 38px;
+    height: 296px;
+    .oval-main-box {
+      .oval-small-box {
+        .task-list-name {
+          margin-top: 14px;
+          font-size: 14px;
+          line-height: 19px;
+          letter-spacing: normal;
+        }
+      }
+    }
+    .slick-dots {
+      margin-top: 0px;
+    }
+  }
+  .members-main-box {
+    height: 804px;
+    .task-box {
+      margin-top: 20px;
+    }
+    img {
+      margin-top: 10px;
+      margin-left: 0;
+      width: 100%;
+    }
+    .pos-button {
+      margin-top: 30px;
+    }
+  }
+  .customer-main-box {
+    height: 720px;
+    .task-box {
+      margin-top: 10px;
+    }
+  }
+  .our-customer-box {
+    padding-top: 25px;
+    height: 525px;
+    .our-customer {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .small-our-customer-box {
+      margin-top: 15px;
+    }
+    .customer-comment {
+      margin-top: 78px;
+      .open-quote-icon {
+        font-size: 48px;
+        line-height: 48px;
+        margin-left: 0px;
+        margin-top: -50px;
+      }
+      .close-quote-icon {
+        font-size: 48px;
+        line-height: 48px;
+        margin-left: 82%;
+        margin-top: -20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .footer {
+    height: 209px;
+    .big-footer-text {
+      margin-top: 24px;
+    }
+    .small-footer-title {
+      margin-top: 73px;
+    }
+    .small-footer-text {
+      margin-top: 104px;
+    }
+    .special {
+      margin-top: 150px;
+      right: 15px;
+    }
+    .footer-icon-box {
+      margin-top: 168px;
+      margin-left: 21px;
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 375px) {

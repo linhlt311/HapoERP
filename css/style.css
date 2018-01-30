@@ -40,6 +40,9 @@ a {
 .row {
   width: 100%; }
 
+.center-mode {
+  margin: 0; }
+
 .index-page {
   height: 875px;
   padding-top: 41px; }
@@ -265,6 +268,8 @@ a {
       height: 100%;
       width: 20%;
       margin: auto; }
+      .task-list-banner .oval-main-box .oval-small-box:focus {
+        outline: none; }
       .task-list-banner .oval-main-box .oval-small-box .oval {
         margin: auto; }
         .task-list-banner .oval-main-box .oval-small-box .oval .mini-icon-rectangle {
@@ -387,12 +392,14 @@ a {
   width: 11px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #979797;
+  border: 1px solid #FFFFFF;
   border-radius: 50%;
   margin: 0 11px; }
+  .slick-dots li button {
+    visibility: hidden; }
 
 .slick-dots .slick-active {
-  background-color: #D8D8D8; }
+  background-color: #FFFFFF; }
 
 .footer {
   height: 180px;
@@ -462,6 +469,8 @@ a {
   .index-icon-row, .index-model-row {
     margin-top: 40px;
     height: 25px; }
+  .icon-main-layout {
+    width: 60%; }
   .single-icon-layout, .single-model-layout {
     font-size: 24px;
     letter-spacing: 2px;
@@ -547,6 +556,8 @@ a {
       line-height: 64px;
       margin-left: -60px; }
     .our-customer-box .customer-comment .close-quote-icon {
+      font-size: 64px;
+      line-height: 64px;
       margin-left: 92%; }
   .slick-dots {
     position: relative;
@@ -557,7 +568,141 @@ a {
       margin-left: -15px; } }
 
 @media screen and (max-width: 480px) {
-  /*Something code*/ }
+  .index-page {
+    height: 266px; }
+    .index-page .index-header {
+      margin-top: -15px; }
+      .index-page .index-header .about-us {
+        margin-left: 0; }
+      .index-page .index-header .sign-in {
+        margin-left: 23px; }
+    .index-page .hapo-erp-box {
+      margin-top: 8px; }
+      .index-page .hapo-erp-box img {
+        width: 96px; }
+    .index-page .index-icon-row, .index-page .index-model-row {
+      margin-top: 20px;
+      height: 18px; }
+      .index-page .index-icon-row .icon-main-layout, .index-page .index-model-row .icon-main-layout {
+        width: 80%; }
+        .index-page .index-icon-row .icon-main-layout .single-icon-layout, .index-page .index-model-row .icon-main-layout .single-icon-layout, .index-page .index-icon-row .icon-main-layout .single-model-layout, .index-page .index-model-row .icon-main-layout .single-model-layout {
+          font-size: 18px;
+          letter-spacing: 1px;
+          line-height: 18px; }
+    .index-page .index-model-row {
+      margin-top: 7px; }
+      .index-page .index-model-row .single-model-layout {
+        font-weight: 300;
+        letter-spacing: normal; }
+    .index-page .index-slogan {
+      font-size: 9px;
+      margin-top: 10px; }
+    .index-page .start-now-button {
+      margin-top: -20px; }
+  .start-now-button {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    padding: 11px 27px; }
+  .main-box .title {
+    height: 32px;
+    text-align: center;
+    width: 190px;
+    margin: auto;
+    margin-top: 30px; }
+    .main-box .title .title-icon {
+      font-size: 20px;
+      line-height: 20px;
+      margin-top: 7px; }
+    .main-box .title .title-name {
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 13px; }
+  .main-box .description {
+    text-align: center;
+    font-size: 13px; }
+  .main-box img {
+    margin-top: 15px; }
+  .main-box .task-box {
+    margin-top: 0px; }
+    .main-box .task-box p {
+      font-size: 12.5px;
+      line-height: 21px; }
+  .main-box .pos-button {
+    margin-top: 10px;
+    text-align: center; }
+  .today-main-box {
+    height: 687px; }
+  .daily-main-box {
+    height: 671px; }
+    .daily-main-box .task-box {
+      margin-top: -5px; }
+    .daily-main-box img {
+      margin-top: 5px; }
+    .daily-main-box .pos-button {
+      margin-top: 20px; }
+  .task-list-banner {
+    padding-top: 38px;
+    height: 296px; }
+    .task-list-banner .oval-main-box .oval-small-box .task-list-name {
+      margin-top: 14px;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: normal; }
+    .task-list-banner .slick-dots {
+      margin-top: 0px; }
+  .members-main-box {
+    height: 804px; }
+    .members-main-box .task-box {
+      margin-top: 20px; }
+    .members-main-box img {
+      margin-top: 10px;
+      margin-left: 0;
+      width: 100%; }
+    .members-main-box .pos-button {
+      margin-top: 30px; }
+  .customer-main-box {
+    height: 720px; }
+    .customer-main-box .task-box {
+      margin-top: 10px; }
+  .our-customer-box {
+    padding-top: 25px;
+    height: 525px; }
+    .our-customer-box .our-customer {
+      font-size: 24px;
+      line-height: 32px; }
+    .our-customer-box .small-our-customer-box {
+      margin-top: 15px; }
+    .our-customer-box .customer-comment {
+      margin-top: 78px; }
+      .our-customer-box .customer-comment .open-quote-icon {
+        font-size: 48px;
+        line-height: 48px;
+        margin-left: 0px;
+        margin-top: -50px; }
+      .our-customer-box .customer-comment .close-quote-icon {
+        font-size: 48px;
+        line-height: 48px;
+        margin-left: 82%;
+        margin-top: -20px; }
+      .our-customer-box .customer-comment p {
+        font-size: 14px; }
+  .footer {
+    height: 209px; }
+    .footer .big-footer-text {
+      margin-top: 24px; }
+    .footer .small-footer-title {
+      margin-top: 73px; }
+    .footer .small-footer-text {
+      margin-top: 104px; }
+    .footer .special {
+      margin-top: 150px;
+      right: 15px; }
+    .footer .footer-icon-box {
+      margin-top: 168px;
+      margin-left: 21px; }
+      .footer .footer-icon-box:first-child {
+        margin-left: 0px; } }
 
 @media screen and (max-width: 375px) {
   /*Something code*/ }
