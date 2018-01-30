@@ -163,7 +163,7 @@
         font-size: 12.3px;
         width: 90.5%;
         line-height: 21px;
-        margin-top: 1px;
+        margin-top: 2px;
         margin-left: 10px;
       }
     }
@@ -290,10 +290,180 @@
   }
   img {
     margin-top: -300px;
+    margin-left: 50px;
     width: 90%;
   }
   .pos-button {
     margin-top: -58px;
+  }
+}
+
+.our-customer-box {
+  height: 544px;
+  padding-top: 50px;
+  background-image: url("../images/background-picture-2.jpg");
+  .our-customer {
+    position: relative;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+    text-align: center;
+  }
+  .small-our-customer-box {
+    height: 150px;
+    margin: auto;
+    margin-top: 28px;
+    .mini-our-customer-box {
+      float: left;
+      padding-top: 20px;
+      &:focus {
+        outline: none;
+      }
+      .customer-content {
+        border-radius: 50%;
+        margin: auto;
+        height: 150px;
+        width: 80px;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        &:hover {
+          cursor: pointer;
+          -moz-transform: scale(1.2);
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+        }
+        .customer-name {
+          position: relative;
+          color: #FFFFFF;
+          font-family: "Roboto", sans-serif;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 13px;
+          text-align: center;
+          margin-left: 5px;
+          margin-top: 16px;
+        }
+        .customer-job {
+          position: relative;
+          color: #FFFFFF;
+          font-family: "Roboto", sans-serif;
+          font-size: 10px;
+          font-weight: 300;
+          line-height: 13px;
+          text-align: center;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+  .customer-comment {
+    position: relative;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 90.5px;
+    .open-quote-icon {
+      opacity: 0.4;
+      color: #FFFFFF;
+      font-family: themify;
+      font-size: 72px;
+      line-height: 73px;
+      text-align: justify;
+      position: absolute;
+      margin-top: -63px;
+      margin-left: -100px;
+    }
+    .close-quote-icon {
+      opacity: 0.4;
+      color: #FFFFFF;
+      font-family: themify;
+      font-size: 72px;
+      line-height: 73px;
+      text-align: justify;
+      position: absolute;
+      margin-left: 100%;
+      margin-top: -28px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.slick-dots li {
+  height: 11px;
+  width: 11px;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  margin: 0 11px;
+}
+
+.slick-dots .slick-active {
+  background-color: #D8D8D8;
+}
+
+.footer {
+  height: 180px;
+  border: 1px solid #ECEFF1;
+  background-color: #39474E;
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  .big-footer-text {
+    height: 29px;
+    width: 96px;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    margin-top: 45px;
+    img {
+      width: 100%;
+    }
+  }
+  .small-footer-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #8BC34A;
+    font-weight: 300;
+    line-height: 18px;
+    position: absolute;
+    margin-top: 54px;
+  }
+  .small-footer-text {
+    color: #D0D8DC;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    position: absolute;
+    margin-top: 86px;
+    a {
+      color: #D0D8DC;
+      &:hover {
+        color: #8BC34A;
+      }  
+    }
+  }
+  .footer-icon-box {
+    float: left;
+    width: 13px;
+    color: #8BC34A;
+    font-family: themify;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: 108px;
+    margin-left: 23%;
+    &:first-child {
+      margin-left: -10px;
+    }
   }
 }
 

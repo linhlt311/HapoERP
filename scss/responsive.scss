@@ -121,10 +121,48 @@
     }
     img {
       margin-top: -245px;
+      margin-left: 0;
       width: 110%;
     }
     .pos-button {
       margin-top: 30px;
+    }
+  }
+  .customer-main-box {
+    .task-box {
+      margin-top: -233px;
+    }
+  }
+  .our-customer-box {
+    .our-customer {
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .small-our-customer-box {
+      margin-top: 10px;
+    }
+    .customer-comment {
+      margin-top: 78px;
+      .open-quote-icon {
+        font-size: 64px;
+        line-height: 64px;
+        margin-left: -60px;
+      }
+      .close-quote-icon {
+        margin-left: 92%;
+      }
+    }
+  }
+  .slick-dots {
+    position: relative;
+    margin-top: -35px;
+  }
+  .footer {
+    .footer-icon-box {
+      margin-left: 18%;
+      &:first-child {
+        margin-left: -15px;
+      }
     }
   }
 }

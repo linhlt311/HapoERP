@@ -15,6 +15,8 @@ button {
   border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
+  button:focus {
+    outline: none; }
 
 h2 {
   margin: 0;
@@ -29,8 +31,11 @@ select {
   select:focus {
     outline: none; }
 
-a:hover {
-  text-decoration: none; }
+a {
+  color: inherit; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
 
 .row {
   width: 100%; }
@@ -176,7 +181,7 @@ a:hover {
       font-size: 12.3px;
       width: 90.5%;
       line-height: 21px;
-      margin-top: 1px;
+      margin-top: 2px;
       margin-left: 10px; }
   .main-box .pos-button {
     margin-top: -55px; }
@@ -282,9 +287,159 @@ a:hover {
     height: 58px; }
   .members-main-box img {
     margin-top: -300px;
+    margin-left: 50px;
     width: 90%; }
   .members-main-box .pos-button {
     margin-top: -58px; }
+
+.our-customer-box {
+  height: 544px;
+  padding-top: 50px;
+  background-image: url("../images/background-picture-2.jpg"); }
+  .our-customer-box .our-customer {
+    position: relative;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+    text-align: center; }
+  .our-customer-box .small-our-customer-box {
+    height: 150px;
+    margin: auto;
+    margin-top: 28px; }
+    .our-customer-box .small-our-customer-box .mini-our-customer-box {
+      float: left;
+      padding-top: 20px; }
+      .our-customer-box .small-our-customer-box .mini-our-customer-box:focus {
+        outline: none; }
+      .our-customer-box .small-our-customer-box .mini-our-customer-box .customer-content {
+        border-radius: 50%;
+        margin: auto;
+        height: 150px;
+        width: 80px;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; }
+        .our-customer-box .small-our-customer-box .mini-our-customer-box .customer-content:hover {
+          cursor: pointer;
+          -moz-transform: scale(1.2);
+          -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          transform: scale(1.2); }
+        .our-customer-box .small-our-customer-box .mini-our-customer-box .customer-content .customer-name {
+          position: relative;
+          color: #FFFFFF;
+          font-family: "Roboto", sans-serif;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 13px;
+          text-align: center;
+          margin-left: 5px;
+          margin-top: 16px; }
+        .our-customer-box .small-our-customer-box .mini-our-customer-box .customer-content .customer-job {
+          position: relative;
+          color: #FFFFFF;
+          font-family: "Roboto", sans-serif;
+          font-size: 10px;
+          font-weight: 300;
+          line-height: 13px;
+          text-align: center;
+          margin-top: 2px; }
+  .our-customer-box .customer-comment {
+    position: relative;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 90.5px; }
+    .our-customer-box .customer-comment .open-quote-icon {
+      opacity: 0.4;
+      color: #FFFFFF;
+      font-family: themify;
+      font-size: 72px;
+      line-height: 73px;
+      text-align: justify;
+      position: absolute;
+      margin-top: -63px;
+      margin-left: -100px; }
+    .our-customer-box .customer-comment .close-quote-icon {
+      opacity: 0.4;
+      color: #FFFFFF;
+      font-family: themify;
+      font-size: 72px;
+      line-height: 73px;
+      text-align: justify;
+      position: absolute;
+      margin-left: 100%;
+      margin-top: -28px; }
+    .our-customer-box .customer-comment p {
+      font-size: 18px;
+      line-height: 30px;
+      color: #FFFFFF; }
+
+.slick-dots li {
+  height: 11px;
+  width: 11px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  margin: 0 11px; }
+
+.slick-dots .slick-active {
+  background-color: #D8D8D8; }
+
+.footer {
+  height: 180px;
+  border: 1px solid #ECEFF1;
+  background-color: #39474E;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
+  .footer .big-footer-text {
+    height: 29px;
+    width: 96px;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    margin-top: 45px; }
+    .footer .big-footer-text img {
+      width: 100%; }
+  .footer .small-footer-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #8BC34A;
+    font-weight: 300;
+    line-height: 18px;
+    position: absolute;
+    margin-top: 54px; }
+  .footer .small-footer-text {
+    color: #D0D8DC;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    position: absolute;
+    margin-top: 86px; }
+    .footer .small-footer-text a {
+      color: #D0D8DC; }
+      .footer .small-footer-text a:hover {
+        color: #8BC34A; }
+  .footer .footer-icon-box {
+    float: left;
+    width: 13px;
+    color: #8BC34A;
+    font-family: themify;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: 108px;
+    margin-left: 23%; }
+    .footer .footer-icon-box:first-child {
+      margin-left: -10px; }
 
 @media screen and (max-width: 1024px) {
   /*Something code*/ }
@@ -374,9 +529,32 @@ a:hover {
       margin-top: 57px; }
     .members-main-box img {
       margin-top: -245px;
+      margin-left: 0;
       width: 110%; }
     .members-main-box .pos-button {
-      margin-top: 30px; } }
+      margin-top: 30px; }
+  .customer-main-box .task-box {
+    margin-top: -233px; }
+  .our-customer-box .our-customer {
+    font-size: 36px;
+    line-height: 48px; }
+  .our-customer-box .small-our-customer-box {
+    margin-top: 10px; }
+  .our-customer-box .customer-comment {
+    margin-top: 78px; }
+    .our-customer-box .customer-comment .open-quote-icon {
+      font-size: 64px;
+      line-height: 64px;
+      margin-left: -60px; }
+    .our-customer-box .customer-comment .close-quote-icon {
+      margin-left: 92%; }
+  .slick-dots {
+    position: relative;
+    margin-top: -35px; }
+  .footer .footer-icon-box {
+    margin-left: 18%; }
+    .footer .footer-icon-box:first-child {
+      margin-left: -15px; } }
 
 @media screen and (max-width: 480px) {
   /*Something code*/ }

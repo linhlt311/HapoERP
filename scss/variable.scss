@@ -19,6 +19,9 @@ button {
   border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  &:focus {
+    outline: none;
+  }
 }
 
 h2 {
@@ -38,8 +41,10 @@ select {
 }
 
 a {
+  color: inherit;
   &:hover {
     text-decoration: none;
+    color: inherit;
   }
 }
 
