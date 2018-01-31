@@ -285,7 +285,9 @@ a {
         margin-top: 11px; }
 
 .members-main-box {
-  height: 588px; }
+  height: 588px;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
   .members-main-box .title {
     margin-top: 100px;
     height: 58px; }
