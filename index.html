@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hapo ERP</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -62,15 +61,17 @@
     <!-- Today I Learnt -->
     <div class="today-main-box main-box">
         <div class="container">
-            <div class="col-xs-12 col-md-6 col-md-offset-6">
-                <div class="title">
-                    <div class="title-icon">
-                        <span class="ti-bookmark-alt"></span>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-md-offset-6">
+                    <div class="title">
+                        <div class="title-icon">
+                            <span class="ti-bookmark-alt"></span>
+                        </div>
+                        <h2 class="title-name">Today I learnt</h2>
                     </div>
-                    <h2 class="title-name">Today I learnt</h2>
-                </div>
-                <div class="description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    <div class="description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </div>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -99,7 +100,7 @@
     <!-- Daily report -->
     <div class="daily-main-box main-box">
         <div class="container">
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="title">
                         <div class="title-icon">
@@ -112,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-sm-6">
                     <div class="task-box">
                         <p class="long-paragraph">
@@ -218,7 +219,7 @@
     <!-- Member -->
     <div class="members-main-box main-box">
         <div class="container">
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="title">
                         <div class="title-icon">
@@ -231,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-sm-6">
                     <div class="task-box">
                         <div class="short-para-line-box">
@@ -280,8 +281,8 @@
 
     <!-- Customers -->
     <div class="today-main-box customer-main-box main-box">
-        <div class="row center-mode">
-            <div class="container">
+        <div class="container">
+            <div class="row">
                 <div class="col-xs-12 col-md-6 col-md-offset-6">
                     <div class="title">
                         <div class="title-icon">
@@ -474,7 +475,7 @@
     <!-- Daily report -->
     <div class="daily-main-box main-box">
         <div class="container">
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="title">
                         <div class="title-icon">
@@ -487,7 +488,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-sm-6">
                     <div class="task-box">
                         <p class="long-paragraph">
@@ -515,7 +516,7 @@
     <!-- Footer -->
     <div class="footer">
         <div class="container">
-            <div class="row center-mode">
+            <div class="row">
                 <div class="col-xs-12 col-sm-2">
                     <a href="" class="big-footer-text">
                         <img src="images/hapoERP.png" class="hapo-erp-footer-img" alt="">
@@ -586,68 +587,10 @@
     </div>
 
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script>
-        $('.our-customer-slider').slick({
-            arrows: false,
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 8,
-            slidesToScroll: 1,
-            asNavFor: '.comment-slider',
-            focusOnSelect: true,
-            centerMode: true,
-            centerPadding: '0',
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        });
-        $('.comment-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            infinite: true,
-            asNavFor: '.our-customer-slider'
-        });
-        $('.task-slider').slick({
-            arrows: false,
-            dots: false,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            focusOnSelect: true,
-            centerMode: true,
-            centerPadding: '0',
-            responsive: [{
-                breakpoint: 600,
-                settings: {
-                    dots: true,
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            }]
-        });
-    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>

@@ -36,9 +36,6 @@ a {
     text-decoration: none;
     color: inherit; }
 
-.center-mode {
-  margin: 0; }
-
 .index-page {
   height: 875px;
   padding-top: 41px; }
@@ -351,24 +348,18 @@ a {
     text-align: justify;
     margin: auto;
     margin-top: 90.5px; }
-    .our-customer-box .customer-comment .open-quote-icon {
+    .our-customer-box .customer-comment .quote-icon, .our-customer-box .customer-comment .open-quote-icon, .our-customer-box .customer-comment .close-quote-icon {
       opacity: 0.4;
       color: #FFFFFF;
       font-family: themify;
       font-size: 72px;
       line-height: 73px;
       text-align: justify;
-      position: absolute;
+      position: absolute; }
+    .our-customer-box .customer-comment .open-quote-icon {
       margin-top: -63px;
       margin-left: -100px; }
     .our-customer-box .customer-comment .close-quote-icon {
-      opacity: 0.4;
-      color: #FFFFFF;
-      font-family: themify;
-      font-size: 72px;
-      line-height: 73px;
-      text-align: justify;
-      position: absolute;
       margin-left: 100%;
       margin-top: -28px; }
     .our-customer-box .customer-comment p {
@@ -477,7 +468,7 @@ a {
     font-weight: 300;
     letter-spacing: normal; }
   .index-slogan {
-    font-size: 13.5px;
+    font-size: 13px;
     margin-top: 15px; }
   .start-now-button {
     font-size: 14px;
@@ -505,7 +496,7 @@ a {
   .main-box .task-box {
     margin-top: -253px; }
     .main-box .task-box p {
-      font-size: 12.5px;
+      font-size: 12px;
       line-height: 21px; }
   .main-box .pos-button {
     margin-top: 30px;
@@ -517,15 +508,14 @@ a {
     .daily-main-box .task-box {
       margin-top: 0px; }
     .daily-main-box img {
-      margin-top: -285px; }
+      margin-top: -245px; }
     .daily-main-box .pos-button {
       margin-top: -10px; }
   .task-list-banner {
     padding-top: 49px;
     height: 288px; }
     .task-list-banner .oval-main-box {
-      padding-left: 0;
-      padding-right: 0; }
+      padding: 0; }
       .task-list-banner .oval-main-box .oval-small-box .task-list-name {
         margin-top: 16px; }
   .members-main-box {
@@ -535,7 +525,7 @@ a {
     .members-main-box img {
       margin-top: -245px;
       margin-left: 0;
-      width: 110%; }
+      width: 100%; }
     .members-main-box .pos-button {
       margin-top: 30px; }
   .customer-main-box .task-box {

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i');
 $paragraph-color: #283238;
 $title-color: #444444;
+$color-1: #FFFFFF;
 body {
   background-image: url("../images/background-picture.jpg");
   background-repeat: no-repeat;
@@ -45,8 +46,4 @@ a {
     text-decoration: none;
     color: inherit;
   }
-}
-
-.center-mode {
-  margin: 0;
 }
