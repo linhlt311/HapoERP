@@ -186,14 +186,6 @@
     position: relative;
     margin-top: -35px;
   }
-  .footer {
-    .footer-icon-box {
-      margin-left: 18%;
-      &:first-child {
-        margin-left: -15px;
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -383,10 +375,6 @@
     }
     .footer-icon-box {
       margin-top: 168px;
-      margin-left: 21px;
-      &:first-child {
-        margin-left: 0px;
-      }
     }
   }
 }
