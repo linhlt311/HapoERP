@@ -1,19 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i");
 body {
   background-image: url("../images/background-picture.jpg");
   background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
   background-size: 100%; }
 
 p {
   line-height: 24px;
-  font-size: 13.2px;
+  font-size: 13px;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
   color: #283238; }
 
 button {
   border: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 400; }
   button:focus {
     outline: none; }
@@ -121,7 +120,6 @@ a {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   color: #FFFFFF;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -141,7 +139,6 @@ a {
 
 .description {
   color: #283238;
-  font-family: "Roboto", sans-serif;
   font-size: 13.5px;
   font-weight: 400;
   font-style: italic;
@@ -233,7 +230,6 @@ a {
 .task-list-name {
   position: relative;
   color: #FFFFFF;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -243,7 +239,6 @@ a {
 .mini-number-rectangle {
   width: 70%;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 300;
   color: #FFFFFF; }
@@ -302,7 +297,6 @@ a {
   .our-customer-box .our-customer {
     position: relative;
     color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
@@ -334,7 +328,6 @@ a {
         .our-customer-box .small-our-customer-box .mini-our-customer-box .customer-content .customer-name {
           position: relative;
           color: #FFFFFF;
-          font-family: "Roboto", sans-serif;
           font-size: 13px;
           font-weight: 300;
           line-height: 13px;
@@ -344,7 +337,6 @@ a {
         .our-customer-box .small-our-customer-box .mini-our-customer-box .customer-content .customer-job {
           position: relative;
           color: #FFFFFF;
-          font-family: "Roboto", sans-serif;
           font-size: 10px;
           font-weight: 300;
           line-height: 13px;
@@ -353,7 +345,6 @@ a {
   .our-customer-box .customer-comment {
     position: relative;
     color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 100;
     line-height: 30px;
@@ -415,7 +406,6 @@ a {
     .footer .big-footer-text img {
       width: 100%; }
   .footer .small-footer-title {
-    font-family: "Roboto", sans-serif;
     font-size: 13px;
     color: #8BC34A;
     font-weight: 300;
@@ -424,7 +414,6 @@ a {
     margin-top: 54px; }
   .footer .small-footer-text {
     color: #D0D8DC;
-    font-family: "Roboto", sans-serif;
     font-size: 10px;
     font-weight: 300;
     line-height: 20px;
@@ -596,8 +585,9 @@ a {
     .index-page .index-model-row {
       margin-top: 7px; }
       .index-page .index-model-row .single-model-layout {
-        font-weight: 300;
-        letter-spacing: normal; }
+        font-weight: 300; }
+        .index-page .index-model-row .single-model-layout span {
+          letter-spacing: normal; }
     .index-page .index-slogan {
       font-size: 9px;
       margin-top: 10px; }

@@ -223,7 +223,9 @@
       margin-top: 7px;
       .single-model-layout {
         font-weight: 300;
-        letter-spacing: normal;
+        span {
+          letter-spacing: normal;
+        }
       }
     }
     .index-slogan {

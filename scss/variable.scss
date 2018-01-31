@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i');
 $paragraph-color: #283238;
 $title-color: #444444;
 body {
   background-image: url("../images/background-picture.jpg");
   background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
   background-size: 100%;
 }
 
 p {
   line-height: 24px;
-  font-size: 13.2px;
+  font-size: 13px;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
   color: $paragraph-color;
 }
 
 button {
   border: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   &:focus {
     outline: none;
