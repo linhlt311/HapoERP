@@ -448,7 +448,20 @@ a {
       margin-left: -10px; }
 
 @media screen and (max-width: 1024px) {
-  /*Something code*/ }
+  .index-page {
+    height: 470px; }
+    .index-page .hapo-erp-box {
+      margin-top: 40px; }
+    .index-page .index-icon-row, .index-page .index-model-row {
+      margin-top: 30px; }
+    .index-page .index-model-row {
+      margin-top: 3px; }
+    .index-page .index-slogan {
+      margin-top: 25px; }
+  .main-box .pos-button {
+    margin-top: 0; }
+  .today-main-box .task-box {
+    margin-top: -220px; } }
 
 @media screen and (max-width: 768px) {
   body {
@@ -568,13 +581,14 @@ a {
 
 @media screen and (max-width: 480px) {
   .index-page {
-    height: 266px; }
+    height: 266px;
+    padding-top: 20px; }
     .index-page .index-header {
-      margin-top: -15px; }
+      margin-top: 0px; }
       .index-page .index-header .about-us {
-        margin-left: 0; }
+        margin-left: -15%; }
       .index-page .index-header .sign-in {
-        margin-left: 23px; }
+        margin-left: 10px; }
     .index-page .hapo-erp-box {
       margin-top: 8px; }
       .index-page .hapo-erp-box img {
@@ -703,7 +717,31 @@ a {
       .footer .footer-icon-box:first-child {
         margin-left: 0px; } }
 
+@media screen and (max-width: 414px) {
+  .index-page {
+    height: 230px; }
+    .index-page .index-icon-row, .index-page .index-model-row {
+      margin-top: 10px; }
+    .index-page .index-model-row {
+      margin-top: 5px; }
+    .index-page .index-slogan {
+      line-height: 15px; } }
+
 @media screen and (max-width: 375px) {
-  /*Something code*/ }
+  .index-page {
+    height: 210.2px;
+    padding-top: 10px; }
+    .index-page .index-header {
+      margin-top: 0px; }
+      .index-page .index-header .about-us {
+        margin-left: -25%; }
+      .index-page .index-header .sign-in {
+        margin-left: 10px; }
+    .index-page .index-icon-row, .index-page .index-model-row {
+      margin-top: 10px; }
+    .index-page .index-model-row {
+      margin-top: 3px; }
+    .index-page .index-slogan {
+      line-height: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

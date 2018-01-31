@@ -1,5 +1,29 @@
 @media screen and (max-width: 1024px) {
-  /*Something code*/
+  .index-page {
+    height: 470px;
+    .hapo-erp-box {
+      margin-top: 40px;
+    }
+    .index-icon-row {
+      margin-top: 30px;
+    }
+    .index-model-row {
+      margin-top: 3px;
+    }
+    .index-slogan {
+      margin-top: 25px;
+    }
+  }
+  .main-box {
+    .pos-button {
+      margin-top: 0;
+    }
+  }
+  .today-main-box {
+    .task-box {
+      margin-top: -220px;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -175,13 +199,14 @@
 @media screen and (max-width: 480px) {
   .index-page {
     height: 266px;
+    padding-top: 20px;
     .index-header {
-      margin-top: -15px;
+      margin-top: 0px;
       .about-us {
-        margin-left: 0;
+        margin-left: -15%;
       }
       .sign-in {
-        margin-left: 23px;
+        margin-left: 10px;
       }
     }
     .hapo-erp-box {
@@ -366,6 +391,43 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .index-page {
+    height: 230px;
+    .index-icon-row {
+      margin-top: 10px;
+    }
+    .index-model-row {
+      margin-top: 5px;
+    }
+    .index-slogan {
+      line-height: 15px;
+    }
+  }
+}
+
+
 @media screen and (max-width: 375px) {
-  /*Something code*/
+  .index-page {
+    height: 210.2px;
+    padding-top: 10px;
+    .index-header {
+      margin-top: 0px;
+      .about-us {
+        margin-left: -25%;
+      }
+      .sign-in {
+        margin-left: 10px;
+      }
+    }
+    .index-icon-row {
+      margin-top: 10px;
+    }
+    .index-model-row {
+      margin-top: 3px;
+    }
+    .index-slogan {
+      line-height: 10px;
+    }
+  }
 }
