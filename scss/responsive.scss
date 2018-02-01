@@ -1,6 +1,6 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1500px) {
   .index-page {
-    height: 470px;
+    padding-bottom: 200px;
     .hapo-erp-box {
       margin-top: 40px;
     }
@@ -13,6 +13,12 @@
     .index-slogan {
       margin-top: 25px;
     }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .index-page {
+    padding-bottom: 80px;
   }
   .main-box {
     .pos-button {
@@ -31,7 +37,6 @@
     background-image: url("../images/TB-background.jpg");
   }
   .index-page {
-    height: 425.2px;
     .index-header {
       margin-top: -15px;
       .about-us {
@@ -189,8 +194,8 @@
 
 @media screen and (max-width: 480px) {
   .index-page {
-    height: 266px;
     padding-top: 20px;
+    padding-bottom: 27px;
     .index-header {
       margin-top: 0px;
       .about-us {
@@ -382,7 +387,6 @@
 
 @media screen and (max-width: 414px) {
   .index-page {
-    height: 230px;
     .index-icon-row {
       margin-top: 10px;
     }
@@ -398,7 +402,6 @@
 
 @media screen and (max-width: 375px) {
   .index-page {
-    height: 210.2px;
     padding-top: 10px;
     .index-header {
       margin-top: 0px;

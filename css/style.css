@@ -37,8 +37,8 @@ a {
     color: inherit; }
 
 .index-page {
-  height: 875px;
-  padding-top: 41px; }
+  padding-top: 41px;
+  padding-bottom: 233px; }
   .index-page .index-header {
     height: 36px; }
     .index-page .index-header .about-us {
@@ -419,9 +419,9 @@ a {
     line-height: 13px;
     margin-top: 108px; }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1500px) {
   .index-page {
-    height: 470px; }
+    padding-bottom: 200px; }
     .index-page .hapo-erp-box {
       margin-top: 40px; }
     .index-page .index-icon-row, .index-page .index-model-row {
@@ -429,7 +429,11 @@ a {
     .index-page .index-model-row {
       margin-top: 3px; }
     .index-page .index-slogan {
-      margin-top: 25px; }
+      margin-top: 25px; } }
+
+@media screen and (max-width: 1024px) {
+  .index-page {
+    padding-bottom: 80px; }
   .main-box .pos-button {
     margin-top: 0; }
   .today-main-box .task-box {
@@ -438,14 +442,12 @@ a {
 @media screen and (max-width: 768px) {
   body {
     background-image: url("../images/TB-background.jpg"); }
-  .index-page {
-    height: 425.2px; }
-    .index-page .index-header {
-      margin-top: -15px; }
-      .index-page .index-header .about-us {
-        margin-left: 14%; }
-      .index-page .index-header .sign-in {
-        margin-left: 23px; }
+  .index-page .index-header {
+    margin-top: -15px; }
+    .index-page .index-header .about-us {
+      margin-left: 14%; }
+    .index-page .index-header .sign-in {
+      margin-left: 23px; }
   .hapo-erp-box {
     margin-top: 30px; }
     .hapo-erp-box img {
@@ -548,8 +550,8 @@ a {
 
 @media screen and (max-width: 480px) {
   .index-page {
-    height: 266px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-bottom: 27px; }
     .index-page .index-header {
       margin-top: 0px; }
       .index-page .index-header .about-us {
@@ -683,18 +685,15 @@ a {
       margin-top: 168px; } }
 
 @media screen and (max-width: 414px) {
-  .index-page {
-    height: 230px; }
-    .index-page .index-icon-row, .index-page .index-model-row {
-      margin-top: 10px; }
-    .index-page .index-model-row {
-      margin-top: 5px; }
-    .index-page .index-slogan {
-      line-height: 15px; } }
+  .index-page .index-icon-row, .index-page .index-model-row {
+    margin-top: 10px; }
+  .index-page .index-model-row {
+    margin-top: 5px; }
+  .index-page .index-slogan {
+    line-height: 15px; } }
 
 @media screen and (max-width: 375px) {
   .index-page {
-    height: 210.2px;
     padding-top: 10px; }
     .index-page .index-header {
       margin-top: 0px; }
