@@ -16,27 +16,26 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1199px) {
   .index-page {
     padding-bottom: 80px;
   }
   .main-box {
     .pos-button {
-      margin-top: 0;
+      margin-top: 10px;
     }
-  }
-  .today-main-box {
-    .task-box {
-      margin-top: -220px;
+    img {
+      margin-top: -70px;
     }
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   body {
     background-image: url("../images/TB-background.jpg");
   }
   .index-page {
+    padding-bottom: 100px;
     .index-header {
       margin-top: -15px;
       .about-us {
@@ -83,6 +82,7 @@
     padding: 13px 27px;
   }
   .main-box {
+    padding-bottom: 50px;
     .title {
       height: 48px;
       text-align: center;
@@ -107,7 +107,7 @@
       margin-top: 25px;
     }
     .task-box {
-      margin-top: -253px;
+      // margin-top: -253px;
       p {
         font-size: 12px;
         line-height: 21px;
@@ -118,24 +118,14 @@
       text-align: center;
     }
   }
-  .today-main-box {
-    height: 526px;
-  }
   .daily-main-box {
-    height: 520px;
     .task-box {
       margin-top: 0px;
-    }
-    img {
-      margin-top: -245px;
-    }
-    .pos-button {
-      margin-top: -10px;
     }
   }
   .task-list-banner {
     padding-top: 49px;
-    height: 288px;
+    padding-bottom: 148px;
     .oval-main-box {
       padding: 0;
       .oval-small-box {
@@ -146,12 +136,11 @@
     }
   }
   .members-main-box {
-    height: 557px;
     .task-box {
-      margin-top: 57px;
+      // margin-top: 57px;
     }
     img {
-      margin-top: -245px;
+      // margin-top: -245px;
       margin-left: 0;
       width: 100%;
     }
@@ -161,7 +150,7 @@
   }
   .customer-main-box {
     .task-box {
-      margin-top: -233px;
+      // margin-top: -233px;
     }
   }
   .our-customer-box {
@@ -190,12 +179,30 @@
     position: relative;
     margin-top: -35px;
   }
+  .footer {
+    height: 209px;
+    .big-footer-text {
+      margin-top: 24px;
+    }
+    .small-footer-title {
+      margin-top: 73px;
+    }
+    .small-footer-text {
+      margin-top: 104px;
+    }
+    .special {
+      margin-top: 150px;
+      right: 15px;
+    }
+    .footer-icon-box {
+      margin-top: 168px;
+    }
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .index-page {
     padding-top: 20px;
-    padding-bottom: 27px;
     .index-header {
       margin-top: 0px;
       .about-us {
@@ -247,6 +254,7 @@
     padding: 11px 27px;
   }
   .main-box {
+    padding-bottom: 30px;
     .title {
       height: 32px;
       text-align: center;
@@ -283,11 +291,7 @@
       text-align: center;
     }
   }
-  .today-main-box {
-    height: 687px;
-  }
   .daily-main-box {
-    height: 671px;
     .task-box {
       margin-top: -5px;
     }
@@ -300,7 +304,7 @@
   }
   .task-list-banner {
     padding-top: 38px;
-    height: 296px;
+    padding-bottom: 130px;
     .oval-main-box {
       .oval-small-box {
         .task-list-name {
@@ -316,7 +320,6 @@
     }
   }
   .members-main-box {
-    height: 804px;
     .task-box {
       margin-top: 20px;
     }
@@ -330,7 +333,6 @@
     }
   }
   .customer-main-box {
-    height: 720px;
     .task-box {
       margin-top: 10px;
     }
@@ -364,24 +366,11 @@
       }
     }
   }
-  .footer {
-    height: 209px;
-    .big-footer-text {
-      margin-top: 24px;
-    }
-    .small-footer-title {
-      margin-top: 73px;
-    }
-    .small-footer-text {
-      margin-top: 104px;
-    }
-    .special {
-      margin-top: 150px;
-      right: 15px;
-    }
-    .footer-icon-box {
-      margin-top: 168px;
-    }
+}
+
+@media screen and (max-width: 500px) {
+  .index-page {
+    padding-bottom: 27px;
   }
 }
 

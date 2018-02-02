@@ -130,6 +130,7 @@
 }
 
 .main-box {
+  padding-bottom: 101px;
   .title-icon {
     margin-top: 14px;
   }
@@ -167,14 +168,13 @@
 }
 
 .today-main-box {
-  height: 571px;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   .title {
     margin-top: 100px;
     height: 58px;
   }
   .task-box {
-    margin-top: -280px;
+    margin-top: 0px;
   }
   img {
     margin-top: -80px;
@@ -183,13 +183,12 @@
 }
 
 .daily-main-box {
-  height: 571px;
   .title {
     margin-top: 100px;
     height: 58px;
   }
   img {
-    margin-top: -270px;
+    margin-top: -90px;
     width: 100%;
   }
 }
@@ -239,8 +238,8 @@
 }
 
 .task-list-banner {
-  height: 322px;
   padding-top: 69px;
+  padding-bottom: 144px;
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   .oval-main-box {
     height: 109.5px;
@@ -279,14 +278,13 @@
 }
 
 .members-main-box {
-  height: 588px;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   .title {
     margin-top: 100px;
     height: 58px;
   }
   img {
-    margin-top: -300px;
+    margin-top: -100px;
     margin-left: 50px;
     width: 90%;
   }
@@ -425,7 +423,6 @@
     }
   }
   .small-footer-title {
-    
     font-size: 13px;
     color: #8BC34A;
     font-weight: 300;
