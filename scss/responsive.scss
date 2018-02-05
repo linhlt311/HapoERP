@@ -179,25 +179,6 @@
     position: relative;
     margin-top: -35px;
   }
-  .footer {
-    height: 209px;
-    .big-footer-text {
-      margin-top: 24px;
-    }
-    .small-footer-title {
-      margin-top: 73px;
-    }
-    .small-footer-text {
-      margin-top: 104px;
-    }
-    .special {
-      margin-top: 150px;
-      right: 15px;
-    }
-    .footer-icon-box {
-      margin-top: 168px;
-    }
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -366,6 +347,25 @@
       }
     }
   }
+  .footer {
+    padding-bottom: 28px;
+    .big-footer-text {
+      margin-top: 24px;
+    }
+    .small-footer-title {
+      margin-top: 54px;
+    }
+    .small-footer-text {
+      margin-top: 86px;
+    }
+    .footer-icon-box {
+      margin-top: 140px;
+    }
+    .special {
+      margin-top: 140px;
+      right: 14px;
+    }
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -387,7 +387,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 375px) {
   .index-page {
