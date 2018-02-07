@@ -21,6 +21,10 @@
       background: none;
       margin-left: 36px;
       cursor: pointer;
+      &:hover {
+        background-color: #8BC34A;
+        color: $color-1;
+      }
     }
   }
 }
@@ -53,7 +57,13 @@
   font-size: 48px;
   letter-spacing: 4px;
   line-height: 48px;
-  font-family: themify 
+  font-family: themify; 
+  span {
+    &:hover {
+      cursor: pointer;
+      color: #8BC34A;
+    }
+  }
 }
 
 .single-model-layout {

@@ -57,6 +57,9 @@ a {
       background: none;
       margin-left: 36px;
       cursor: pointer; }
+      .index-page .index-header .sign-in:hover {
+        background-color: #8BC34A;
+        color: #FFFFFF; }
 
 .hapo-erp-box {
   margin-top: 180px; }
@@ -83,6 +86,9 @@ a {
   letter-spacing: 4px;
   line-height: 48px;
   font-family: themify; }
+  .single-icon-layout span:hover, .single-model-layout span:hover {
+    cursor: pointer;
+    color: #8BC34A; }
 
 .single-model-layout {
   font-family: "Roboto", sans-serif;
